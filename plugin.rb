@@ -2,7 +2,7 @@ Onebox = Onebox
 
 module Onebox
   module Engine
-    class GarminConnectOnebox
+    class StravaOnebox
       include Engine
       REGEX = /^https?:\/\/www\.strava\.com\/activities\/[0-9]*\/embed\/[0-9A-Za-z]*/
       matches_regexp REGEX
