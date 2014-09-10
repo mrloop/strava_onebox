@@ -1,7 +1,7 @@
 Strava Onebox
 =============
 
-Strava Onebox for embeding strava rides
+Strava Onebox for embedding strava rides
 
 Install in Discourse 1.0
 
