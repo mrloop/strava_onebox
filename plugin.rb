@@ -1,6 +1,6 @@
 # name: strava_onebox
 # about: Strava Onebox for embedding strava rides
-# version: 0.1
+# version: 1.0
 # authors: Ewan McDougall
 
 Onebox = Onebox

@@ -1,6 +1,8 @@
+[![Build Status](https://travis-ci.org/mrloop/strava_onebox.svg?branch=master)](https://travis-ci.org/mrloop/strava_onebox)
+
 # Strava Onebox
 
-[Strava](https://www.strava.com/) [Onebox]((https://github.com/discourse/onebox) for embedding strava activities in [Discourse](discourse.org)
+[Strava](https://www.strava.com/) [Onebox](https://github.com/discourse/onebox) for embedding strava activities in [Discourse](discourse.org)
 
 Example at http://elgin.cc/t/australian-pursuit-race/66/2
 
@@ -42,5 +44,13 @@ You need to use a url from the 'Embed on Blog' code
     ./launcher ssh app
     cd /var/www/discourse
     rake posts:refresh_oneboxes
+
+```
+
+## To run tests
+
+```sh
+
+    ruby -Ilib:test plugin_test.rb
 
 ```
