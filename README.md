@@ -36,7 +36,7 @@ Or 'Share your rides' from your profile
 
 ```sh
 
-    cd /var/docker
+    cd /var/discourse
     ./launcher rebuild app
     ./launcher restart app
 
@@ -46,7 +46,7 @@ Or 'Share your rides' from your profile
 
 ```sh
 
-    ./launcher ssh app
+    ./launcher enter app
     cd /var/www/discourse
     rake posts:refresh_oneboxes
 
