@@ -50,3 +50,5 @@ module Onebox
     end
   end
 end
+
+register_asset 'javascripts/iframe-strava-whitelist.js', :server_side

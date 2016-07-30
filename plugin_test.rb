@@ -11,6 +11,10 @@ module Onebox
   end
 end
 
+def register_asset *args
+  "stub"
+end
+
 require './plugin.rb'
 
 class TestStravaOnebox < Minitest::Test
