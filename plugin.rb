@@ -9,8 +9,12 @@ module Onebox
   module Engine
     class StravaOnebox
       include Engine
-      REGEX = /^https?:\/\/www\.strava\.com\/(activities|athletes)\/[0-9]*\/(activity-summary|embed|latest-rides)\/[0-9A-Za-z]*/
+      REGEX = /^(?:<iframe .* src=')?https?:\/\/www\.strava\.com\/(activities|athletes)\/[0-9]*\/(activity-summary|embed|latest-rides)\/[0-9A-Za-z]*(?:'><\/iframe>)?/
       matches_regexp REGEX
+
+      def is_iframe?
+        @url.include? "iframe"
+      end
 
       def is_activity?
         @url.include? "activities"
@@ -37,7 +41,11 @@ module Onebox
       end
 
       def to_html
-        "<iframe height='#{height}' width='#{width}' frameborder='0' allowtransparency='true' scrolling='no' src='#{@url}'></iframe>"
+        if is_iframe?
+          @url
+        else
+          "<iframe height='#{height}' width='#{width}' frameborder='0' allowtransparency='true' scrolling='no' src='#{@url}'></iframe>"
+        end
       end
     end
   end

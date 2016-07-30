@@ -8,6 +8,10 @@ Example at http://elgin.cc/t/australian-pursuit-race/66/2
 
 ### Supported URLs for embeds
 
+You can use the embed code directly from 'Embed on Blog' or 'Share your rides' from your profile.
+
+The plugin also supports usings the iframe src url directly. This is not the prefered way and is for legacy support only.
+
 You need to use a url from the 'Embed on Blog' code
 
   - http://www.strava.com/activities/190948728/embed/7dc1376fba9ec275bf3b41a2df3d423ed2f5c6ae
