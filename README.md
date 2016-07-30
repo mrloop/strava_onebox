@@ -12,6 +12,11 @@ You need to use a url from the 'Embed on Blog' code
 
   - http://www.strava.com/activities/190948728/embed/7dc1376fba9ec275bf3b41a2df3d423ed2f5c6ae
 
+Or 'Share your rides' from your profile
+
+  - https://www.strava.com/athletes/150922/latest-rides/9debf6ca6f225aa2f987ca2f99b416d78f6b0f49
+  - https://www.strava.com/athletes/150922/activity-summary/9debf6ca6f225aa2f987ca2f99b416d78f6b0f49
+
 ## Installation
 
 ```yml
