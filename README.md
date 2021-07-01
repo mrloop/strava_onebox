@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/mrloop/strava_onebox.svg?branch=master)](https://travis-ci.org/mrloop/strava_onebox)
-
 # Strava Onebox
+
+[![CI](https://github.com/mrloop/strava_onebox/actions/workflows/ci.yml/badge.svg)](https://github.com/mrloop/strava_onebox/actions/workflows/ci.yml)
 
 [Strava](https://www.strava.com/) [Onebox](https://github.com/discourse/onebox) for embedding strava activities in [Discourse](discourse.org)
 
