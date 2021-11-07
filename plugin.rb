@@ -1,7 +1,14 @@
 # name: strava_onebox
 # about: Strava Onebox for embedding strava rides
-# version: 1.0
+# version: 1.0.1
 # authors: Ewan McDougall
+
+begin
+  require_relative "../../lib/onebox"
+rescue LoadError
+  # running in test
+end
+
 
 Onebox = Onebox
 
