@@ -3,6 +3,13 @@
 # version: 1.0
 # authors: Ewan McDougall
 
+begin
+  require_relative "../../lib/onebox"
+rescue LoadError
+  # running in test
+end
+
+
 Onebox = Onebox
 
 module Onebox
