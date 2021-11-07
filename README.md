@@ -17,7 +17,16 @@ Or 'Share your rides' from your profile
   - https://www.strava.com/athletes/150922/latest-rides/9debf6ca6f225aa2f987ca2f99b416d78f6b0f49
   - https://www.strava.com/athletes/150922/activity-summary/9debf6ca6f225aa2f987ca2f99b416d78f6b0f49
 
+### Allowed iframes
+
+Update the 'allowed iframes' in the security settings of your site to include 'https://www.strava.com/'.
+
 ## Installation
+
+```sh
+cd /var/discourse
+nano containers/app.yml
+```
 
 ```yml
 
